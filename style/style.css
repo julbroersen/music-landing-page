@@ -33,11 +33,11 @@ h3 {
 a {
   text-decoration: none;
   font-weight: bolder;
-  color: black;
+  color: white;
 }
 
 .primary-button {
-  background: white;
+  background: black;
   border-radius: 8px;
   margin: 15px;
   padding: 10px 15px;
@@ -45,8 +45,21 @@ a {
 }
 
 .primary-button:hover {
-  background: black;
+  background: white;
+  color: black;
+}
+
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/../images/image-four.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+  font-family: "Poppins", serif;
+  font-size: 10px;
+  padding: 50px;
   color: white;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
