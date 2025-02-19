@@ -1,3 +1,56 @@
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/../images/image-one.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+  padding: 150px 30px 100px;
+  color: white;
+  text-align: center;
+}
+
 h1 {
-  /* font-family: "Poppins";*/
+  font-family: "Afacad", serif;
+  font-size: 96px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}
+
+.primary-button {
+  background: white;
+  border-radius: 8px;
+  margin: 15px;
+  padding: 10px 15px;
+  transition: all 150ms ease-in-out;
+}
+
+.primary-button:hover {
+  background: black;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding-top: 100px;
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
 }
