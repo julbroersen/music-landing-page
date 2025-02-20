@@ -51,6 +51,30 @@ a {
   color: black;
 }
 
+main img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+main h2 {
+  font-family: "Afacad", serif;
+  font-size: 40px;
+  text-align: left;
+}
+
+main p {
+  font-family: "Poppins", serif;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  padding: 40px;
+}
+
 footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("/../images/image-four.jpg");
@@ -91,11 +115,35 @@ footer {
     font-size: 16px;
   }
 
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+
+  main h2 {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+
+  main p {
+    padding-left: 0;
+  }
+
   .footer-grid {
     grid-template-columns: 1fr;
   }
 
   .details {
     text-align: left;
+  }
+}
+
+@media (max-width: 900px) {
+  main h2 {
+    font-size: 18px;
+  }
+
+  main p {
+    font-size: 12px;
   }
 }
