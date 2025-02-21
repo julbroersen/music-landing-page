@@ -62,6 +62,10 @@ a {
   border-radius: 4px;
 }
 
+.filter {
+  filter: contrast(115%) saturate(116%);
+}
+
 .body-title {
   color: rgba(196, 196, 167);
   font-family: "Afacad", serif;
